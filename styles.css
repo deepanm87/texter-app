@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Geist", sans-serif;
+}
+
+h1 {
+    color: #0F8CDF;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.profile-pic {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 50px;
+}
+
+main, header {
+    width: 290px;
+    margin: 0 auto;
+}
+
+header {
+    padding-bottom: 25px;
+}
+
+.text-input-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+button {
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
