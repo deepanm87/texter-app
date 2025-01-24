@@ -54,3 +54,44 @@ button {
     font-weight: 600;
 }
 
+.text {
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.text-inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.text-details {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.handle {
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.text-content {
+    width: 207px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+i {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.liked {
+    color: red;
+}
